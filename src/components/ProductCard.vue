@@ -136,8 +136,11 @@ import AppCheckbox from './UI/AppCheckbox.vue'
 </script>
 
 <style scoped>
+
+
 .product {
-  width: 100%;
+  max-width:1600px;
+  margin: 0 auto;
   .product__title {
     text-transform: uppercase;
     margin-bottom: 32px;
