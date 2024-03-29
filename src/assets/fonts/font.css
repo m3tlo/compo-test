@@ -1,0 +1,102 @@
+@font-face {
+  font-family: 'Gotham';
+  src: url('./gotham_book.otf');
+}
+@font-face {
+  font-family: 'Gotham-medium';
+  src: url('./gotham_medium.otf');
+}
+@font-face {
+  font-family: 'Gotham-bold';
+  src: url('./gotham_bold.otf');
+}
+@font-face {
+  font-family: 'Gotham-light';
+  src: url('./gotham_light.otf');
+}
+@font-face {
+  font-family: 'Gotham-pro';
+  src: url('./gothampro_medium.ttf');
+}
+@font-face {
+  font-family: 'Gotham-pro_light';
+  src: url('./gothampro_light.ttf');
+}
+* {
+  font-family: 'Gotham';
+  font-weight: 500;
+}
+
+
+.bold {
+  font-family: 'Gotham-bold';
+  font-weight: 700;
+}
+.semi-bold {
+  font-family: 'Gotham-medium';
+  font-weight: 500;
+}
+.light {
+  font-family: 'Gotham-light';
+  font-weight: 400;
+}
+.pro {
+  font-family: 'Gotham-pro';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+}
+.pro-light {
+  font-family: 'Gotham-pro_light';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+}
+.blue {
+  color: #1551e5;
+}
+
+.subtitle {
+  font-size: 12px;
+  line-height: 16px;
+  color: #828ead;
+  font-weight: 400;
+}
+h1{
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  font-family: "Gotham-bold";
+}
+h2 ,h2.pro {
+  font-size: 32px;
+  line-height: 32px;
+  font-weight: 400;
+}
+h3 {
+  font-weight: bolder;
+  font-size: 24px;
+  line-height: 28px;
+}
+h4 {
+  line-height: 20px;
+  font-size: 20px;
+  font-weight: 600;
+}
+h5{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: Gotham;
+}
+h6 {
+  line-height: 16px;
+  font-size: 14px;
+  font-weight: 700;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
